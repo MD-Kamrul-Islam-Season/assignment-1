@@ -52,7 +52,7 @@ nav {
 /* Navbar styles ends */
 /* Banner styles starts*/
 .banner {
-  background-image: url("assets/banner.jpg");
+  background-image: url("./assets/banner.jpg");
   background-size: cover;
   width: 100%;
   height: 49.125rem;
