@@ -36,7 +36,18 @@ nav > ul {
   color: white;
   background-color: #1d4ed8;
 }
-
+.speakerCard,
+.speakerCard > img {
+  border-radius: 10px;
+}
+.blueText {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 14px;
+}
+.grayText {
+  color: #575757;
+}
 /* Navbar styles starts */
 nav {
   margin: 26px 0;
@@ -74,3 +85,35 @@ nav {
   width: 18.18%;
   margin: 8rem auto;
 }
+/* Banner styles ends*/
+/* Speaker styles starts */
+.speakers {
+  width: 85%;
+  margin: 16rem auto;
+}
+.speakersCardContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+.speakerCard {
+  border: 0.2px solid rgba(128, 128, 128, 0.5);
+}
+.speakerCard h5 {
+  margin: 0.5rem 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+.speakerCard .textContainer {
+  margin: 1.5rem;
+}
+.speakers > h2 {
+  width: 45%;
+  margin: 0 auto;
+  margin-top: -10rem;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3.5rem;
+}
+/* Speaker styles ends */
