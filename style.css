@@ -3,3 +3,34 @@
   margin: 0;
   padding: 0;
 }
+/*Google font */
+body {
+  font-family: "Inter", sans-serif;
+}
+/* Common styles */
+img {
+  max-width: 100%;
+}
+nav,
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav {
+  margin-top: 26px;
+}
+.btn-1 {
+  padding: 12px 41px;
+  border-radius: 10px;
+  color: white;
+  background-color: #1d4ed8;
+}
+
+.nav-item-container {
+  list-style: none;
+  gap: 24px;
+}
+.nav-item .nav-link {
+  text-decoration: none;
+}
