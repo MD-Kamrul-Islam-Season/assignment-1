@@ -24,12 +24,14 @@ nav > ul {
   text-align: center;
 }
 .btn-1 {
+  border: none;
   padding: 12px 41px;
   border-radius: 10px;
   color: white;
   background-color: #1d4ed8;
 }
 .btn-2 {
+  border: none;
   font-size: 1.4rem;
   padding: 25px 61px;
   border-radius: 10px;
@@ -45,9 +47,25 @@ nav > ul {
   font-weight: 600;
   font-size: 14px;
 }
+.blueBorder {
+  border: 1px solid blue;
+}
 .grayText {
   color: #575757;
 }
+.bgDark {
+  background-color: #0d1b2a;
+}
+.bgBlue {
+  background-color: #2563eb;
+}
+.whiteText {
+  color: white;
+}
+.whiteText2 {
+  color: rgba(255, 255, 255, 0.6);
+}
+
 /* Navbar styles starts */
 nav {
   margin: 26px 0;
@@ -117,3 +135,57 @@ nav {
   font-size: 3.5rem;
 }
 /* Speaker styles ends */
+/* Secure styles starts */
+.secure {
+  margin-top: -5rem;
+}
+.secure > h2 {
+  width: 27%;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.secure > p {
+  width: 20%;
+  margin: 1.5rem auto;
+  text-align: center;
+}
+.pricingCardContainer {
+  width: 75%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.pricingCard {
+  padding: 2rem 1.5rem 2rem 2.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  line-height: 1.35;
+  border-radius: 10px;
+}
+.pricingCard > h2 {
+  font-weight: bold;
+  font-size: 2.75rem;
+}
+.pricingCard > p {
+  font-weight: 600;
+}
+.lightblueText {
+  color: rgb(125, 125, 255);
+}
+.pricingCard > ul > li::marker {
+  color: rgb(55, 55, 255);
+}
+.marginBtm {
+  margin-bottom: 2.5rem;
+}
+.pricingBtn {
+  border-radius: 10px;
+  margin: 1.25rem 0 0 -1rem;
+  width: 360px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+}
+/* Secure styles ends */
