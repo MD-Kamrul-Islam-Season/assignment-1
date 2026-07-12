@@ -129,6 +129,9 @@ nav {
 .speakerCard .textContainer {
   margin: 1.5rem;
 }
+.textContainer > .blueText {
+  text-transform: uppercase;
+}
 .speakers > h2 {
   width: 45%;
   margin: 0 auto;
@@ -199,6 +202,7 @@ nav {
 /* Secure styles ends */
 /* Why attend styles starts */
 .why-attend {
+  margin-top: 10rem;
   padding: 100px;
   background: #0f172a;
   color: #fff;
@@ -251,3 +255,36 @@ nav {
   line-height: 1.8;
 }
 /* Why attend styles ends */
+/* Footer styles starts*/
+footer {
+  background-color: #13273d;
+  padding: 1.5rem 5rem;
+}
+footer hr {
+  width: 90%;
+  margin: 0 auto;
+}
+footer p {
+  width: 25%;
+  color: rgba(0, 255, 255, 0.668);
+  margin: 1.5rem auto;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  padding: 3rem 8rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: right;
+  gap: 1.5rem;
+  list-style: none;
+}
+.socials img {
+  width: 2rem;
+}
+/* Footer styles ends*/
